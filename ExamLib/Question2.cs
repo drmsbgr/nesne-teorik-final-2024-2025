@@ -5,6 +5,12 @@ namespace ExamLib;
 public class EmployeeRepository
 {
     //private readonly DbContext _context;
+
+    // public EmployeeRepository(DbContext context)
+    // {
+    //     this._context = context;
+    // }
+
     public IQueryable<Employee> GetAll()
     {
         //return _context.Employees.AsQueryable();
